@@ -5,6 +5,11 @@
 public class HelloWorld {
 	public static void main (String args[]){
 		System.out.println("Hello there!");
-		System.out.print(".");
+		
+		Person person = new Person("Bob");
+		person.sayName();
+		
+		Student student = new Student("Jack");
+		student.sayName();
 	}
 }
